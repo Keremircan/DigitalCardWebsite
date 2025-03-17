@@ -11118,15 +11118,12 @@ body {
 }
 
 .masthead {
-    width: 100%;
-    
+    width: 100%;  
 }
 
 .masthead #mainImage {
     width: 100%;
     height: auto;
-/*    max-width: 100vw;*/
-/*    display: block;*/
 }
 
 .about-section {
@@ -11136,7 +11133,11 @@ body {
 .about-section p {
   margin-bottom: 5rem;
 }
-
+.about-section img {
+    position: relative;
+    top: -5rem;
+    right: 5rem;
+}
 .projects-section {
   padding: 10rem 0;
 }
