@@ -51,12 +51,4 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
-    let video = document.getElementById("myVideo");
-
-    function restartVideo() {
-        video.currentTime = 0;  // Videoyu baþa sar
-        video.play();           // Videoyu oynat
-    }
-
-    setInterval(restartVideo, 3000); // Her 5 saniyede bir videoyu tekrar oynat
 });
